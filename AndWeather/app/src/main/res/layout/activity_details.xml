@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/imgWeather"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/coord"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/coordinates"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvCoord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/name"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/weather"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/weather"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/temperature"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/temperature"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/pressure"
+        android:textStyle="bold"
+        />
+
+
+    <TextView
+        android:id="@+id/tvPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/humidity"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/mintemp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/minimum_temperature"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvMinTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/maxtemp"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/maximum_temperature"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tvMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/go_back" />
+
+
+</LinearLayout>
